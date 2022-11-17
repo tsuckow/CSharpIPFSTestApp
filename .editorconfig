@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# VSTHRD103: Call async methods when in an async method
+dotnet_diagnostic.VSTHRD103.severity = none

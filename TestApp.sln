@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{4E0F2280-5D8C-438C-B74D-E33A602399C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeerTalk", "..\peer-talk\src\PeerTalk.csproj", "{56AD5AB9-B2CB-445A-88FD-F45505F0B26D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpfsEngine", "..\net-ipfs-engine\src\IpfsEngine.csproj", "{6828B2A9-1F2E-41D7-8636-534599E37B7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56AD5AB9-B2CB-445A-88FD-F45505F0B26D} = {56AD5AB9-B2CB-445A-88FD-F45505F0B26D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CC76DB4-1396-476E-B782-2ED3A4EE4AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPFSDiagnostic", "IPFSDiagnostic\IPFSDiagnostic.csproj", "{1BC06813-3E9C-46D1-BEF3-28C7DB6EB1F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E0F2280-5D8C-438C-B74D-E33A602399C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0F2280-5D8C-438C-B74D-E33A602399C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0F2280-5D8C-438C-B74D-E33A602399C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0F2280-5D8C-438C-B74D-E33A602399C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AD5AB9-B2CB-445A-88FD-F45505F0B26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AD5AB9-B2CB-445A-88FD-F45505F0B26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AD5AB9-B2CB-445A-88FD-F45505F0B26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AD5AB9-B2CB-445A-88FD-F45505F0B26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6828B2A9-1F2E-41D7-8636-534599E37B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6828B2A9-1F2E-41D7-8636-534599E37B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6828B2A9-1F2E-41D7-8636-534599E37B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6828B2A9-1F2E-41D7-8636-534599E37B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC06813-3E9C-46D1-BEF3-28C7DB6EB1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC06813-3E9C-46D1-BEF3-28C7DB6EB1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC06813-3E9C-46D1-BEF3-28C7DB6EB1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC06813-3E9C-46D1-BEF3-28C7DB6EB1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1832DD29-7177-4168-A4E1-216364015553}
+	EndGlobalSection
+EndGlobal
